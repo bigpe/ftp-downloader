@@ -2,14 +2,21 @@
 
 ## Usage:
 
-Initialize class object.
+```shell script
+$ pip3 install ftp_downloader
+```
+
+Import add initialize class object.
 
 ```python
 from ftp_downloader import FTPDownloader
+
 ftp_client=FTPDownloader(FTP_HOST, FTP_PORT, FTP_USER, FTP_PASSWORD)
 ```
 
-Download all the files in the selected ftp directory (And re-download only modified files for reused).
+## Examples:
+
+Download all files in the selected ftp directory (And re-download only modified files for reused).
 
 ```python
 ftp_client.download_dir(download_from_dir='directory')
