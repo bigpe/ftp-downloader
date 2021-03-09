@@ -8,7 +8,7 @@ setup(
   author='Aleksandr Sokolov',
   author_email='bigpewm@gmail.com',
   url='https://github.com/bigpe/FtpDownloader',
-  download_url='https://github.com/bigpe/FtpDownloader/archive/pypi-0_1_3.tar.gz',
+  download_url='https://github.com/bigpe/FtpDownloader/archive/pypi-0.1.tar.gz',
   keywords=['ftp', 'python3.7', 'asyncio ', 'aioftp', 'ftp-client', 'download', 'ftp'],
   install_requires=[
           'aioftp',
