@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name='ftp_downloader',
   packages=['ftp_downloader'],
-  version='0.1',
+  version='0.2',
   license='MIT',
   description='Simple async ftp downloader based on aioftp. Download only modified files.',
   author='Aleksandr Sokolov',
@@ -12,6 +12,8 @@ setup(
   keywords=['ftp', 'python3.7', 'asyncio ', 'aioftp', 'ftp-client', 'download', 'ftp'],
   install_requires=[
           'aioftp',
+          'colorama',
+          'cursor',
       ],
   classifiers=[  # Optional
     # How mature is this project? Common values are
