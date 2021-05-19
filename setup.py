@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name='ftp_downloader',
   packages=['ftp_downloader'],
-  version='0.2',
+  version='0.3',
   license='MIT',
   description='Simple async ftp downloader based on aioftp. Download only modified files.',
   author='Aleksandr Sokolov',
   author_email='bigpewm@gmail.com',
   url='https://github.com/bigpe/FtpDownloader',
-  download_url='https://github.com/bigpe/FtpDownloader/archive/pypi-0.2.tar.gz',
+  download_url='https://github.com/bigpe/FtpDownloader/archive/pypi-0.3.tar.gz',
   keywords=['ftp', 'python3.7', 'asyncio ', 'aioftp', 'ftp-client', 'download', 'ftp'],
   install_requires=[
           'aioftp',
