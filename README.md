@@ -28,8 +28,9 @@ ftp_client.download_dir(download_from_dir='directory')
 
 ###### download_dir():
 
-- upload_to_dir (Str, Root directory for uploaded files)
-- exclude_ext (Array, Exclude extensions from download)
+- upload_to_dir (str, Root directory for uploaded files)
+- exclude_ext (list, Exclude extensions from download)
+- with_root_path (bool, True: download to: /upload_to_dir/download_dir | False: download to : /upload_to_dir)
 
 ###### FTPDownloader():
 
@@ -62,8 +63,9 @@ ftp_client.download_dir(download_from_dir='directory')
 
 ###### download_dir():
 
-- upload_to_dir (Str, Корневая директория для загружаемых файлов)
-- exclude_ext (Array, Исключить расширения файлов из загрузки)
+- upload_to_dir (str, Корневая директория для загружаемых файлов)
+- exclude_ext (list, Исключить расширения файлов из загрузки)
+- with_root_path (bool, True: download to: /upload_to_dir/download_dir | False: download to : /upload_to_dir)
 
 ###### FTPDownloader():
 
